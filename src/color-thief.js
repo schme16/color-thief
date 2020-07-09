@@ -100,6 +100,7 @@ ColorThief.prototype.getPalette = function(sourceImage, colorCount, quality) {
 
 ColorThief.prototype.getColorFromUrl = function(imageUrl, callback, quality) {
     const sourceImage = document.createElement("img");
+    sourceImage.crossOrigin = "Anonymous";
 
     sourceImage.addEventListener('load' , () => {
         const palette = this.getPalette(sourceImage, 5, quality);
@@ -134,6 +135,7 @@ ColorThief.prototype.getColorAsync = function(imageUrl, callback, quality) {
     const thief = this;
     this.getImageData(imageUrl, function(imageData){
         const sourceImage = document.createElement("img");
+        sourceImage.crossOrigin = "Anonymous";
         sourceImage.addEventListener('load' , function(){
             const palette = thief.getPalette(sourceImage, 5, quality);
             const dominantColor = palette[0];
