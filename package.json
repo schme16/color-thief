@@ -19,7 +19,7 @@
     "homepage": "http://lokeshdhakar.com/projects/color-thief/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lokesh/color-thief.git"
+        "url": "https://github.com/schme16/color-thief.git"
     },
     "license": "MIT",
     "source": "src/color-thief.js",
@@ -35,20 +35,18 @@
         "test:browser": "cypress open",
         "test:node": "mocha"
     },
-    "devDependencies": {
-        "@node-minify/core": "^4.0.5",
-        "@node-minify/uglify-es": "^4.0.5",
+    "dependencies": {
+        "@node-minify/core": "^6.2.0",
+        "@node-minify/uglify-es": "^6.2.0",
         "chai": "^4.2.0",
         "chai-as-promised": "^7.1.1",
-        "cypress": "^3.4.0",
-        "eslint": "^5.16.0",
-        "http-server": "^0.11.1",
-        "microbundle": "^0.11.0",
-        "mocha": "^6.2.0",
-        "mustache": "^3.0.1"
-    },
-    "dependencies": {
-        "get-pixels-updated": "latest",
-        "quantize": "^2.2.0"
+        "cypress": "^6.4.0",
+        "eslint": "^7.19.0",
+        "get-pixels-updated": "^1.0.0",
+        "http-server": "^0.12.3",
+        "microbundle": "^0.13.0",
+        "mocha": "^8.2.1",
+        "mustache": "^4.1.0",
+        "quantize": "^1.0.2"
     }
 }
