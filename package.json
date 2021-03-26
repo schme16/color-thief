@@ -38,14 +38,14 @@
     "dependencies": {
         "@node-minify/core": "^6.2.0",
         "@node-minify/uglify-es": "^6.2.0",
-        "chai": "^4.2.0",
+        "chai": "^4.3.4",
         "chai-as-promised": "^7.1.1",
-        "cypress": "^6.4.0",
-        "eslint": "^7.19.0",
+        "cypress": "^6.8.0",
+        "eslint": "^7.22.0",
         "get-pixels-updated": "^1.0.0",
         "http-server": "^0.12.3",
         "microbundle": "^0.13.0",
-        "mocha": "^8.2.1",
+        "mocha": "^8.3.2",
         "mustache": "^4.1.0",
         "quantize": "^1.0.2"
     }
